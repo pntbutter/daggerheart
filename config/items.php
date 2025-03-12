@@ -178,6 +178,69 @@ return [
             'modifiers' => [],
         ],
 
-    ]
+    ],
+
+    'item' => [
+
+        'premium_bedroll' => [
+            'name' => 'Premium bedroll',
+            'feature' => 'During any rests, you always automatically clear 1 stress.',
+        ],
+
+        'piper_whistle' => [
+            'name' => 'Piper Whistle',
+            'feature' => 'A handcrafted whistle. Each have a distinctive sound, and the piercing tone can be heard across a one mile radius.',
+        ],
+
+        'charging_quiver' => [
+            'name' => 'Charging Quiver',
+            'feature' => 'When arrows for a bow are kept in the Charging Quiver, damage rolls using the bow deal +2 damage.',
+        ],
+
+    ],
+
+    'consumable' => [
+
+        'stride_potion' => [
+            'name' => 'Stride Potion',
+            'feature' => 'Take a +1 to your next Agility roll.',
+        ],
+
+        'bolster_potion' => [
+            'name' => 'Bolster Potion',
+            'feature' => 'Take a +1 to your next Strength roll.',
+        ],
+
+        'focus_potion' => [
+            'name' => 'Focus Potion',
+            'feature' => 'Take a +1 to your next Finesse roll.',
+        ],
+
+        'charm_potion' => [
+            'name' => 'Charm Potion',
+            'feature' => 'Take a +1 to your next Presence roll.',
+        ],
+
+        'sharp_potion' => [
+            'name' => 'Sharp Potion',
+            'feature' => 'Take a +1 to your next Knowledge roll.',
+        ],
+
+        'attune_potion' => [
+            'name' => 'Attune Potion',
+            'feature' => 'Take a +1 to your next Instinct roll.',
+        ],
+
+        'minor_health_potion' => [
+            'name' => 'Minor Health Potion',
+            'feature' => 'Immediately clear 1d4 hit points.',
+        ],
+
+        'minor_stamina_potion' => [
+            'name' => 'Minor Stamina Potion',
+            'feature' => 'Immediately clear 1d4 stress.',
+        ],
+
+    ],
 
 ];

@@ -1,3 +1,3 @@
-<span x-ref="button" x-on:click="open = ! open">
+<button type="button" x-ref="button" x-on:click="open = ! open">
     {{ $slot }}
-</span>
+</button>

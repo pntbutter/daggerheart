@@ -11,7 +11,7 @@ class Inventory extends Component
 {
     public Character $character;
 
-    public $type = 'primary';
+    public $type = 'consumable';
 
     public function changeType($type)
     {

@@ -7,6 +7,7 @@ enum ItemType: string
     case PRIMARY = 'primary';
     case SECONDARY = 'secondary';
     case ARMOR = 'armor';
+    case ITEM = 'item';
     case CONSUMABLE = 'consumable';
 
     public function label(): string
@@ -15,6 +16,7 @@ enum ItemType: string
             self::PRIMARY => 'Primary weapon',
             self::SECONDARY => 'Secondary weapon',
             self::ARMOR => 'Armor',
+            self::ITEM => 'Item',
             self::CONSUMABLE => 'Consumable',
         };
     }
